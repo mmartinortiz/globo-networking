@@ -33,5 +33,10 @@ variable "public_subnets" {
     public-1 = "10.42.10.0/24"
     public-2 = "10.42.11.0/24"
   }
+
+}
+variable "billing_code" {
+  type        = string
+  description = "(Required) Billing code"
 }
 
