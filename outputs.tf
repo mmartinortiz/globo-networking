@@ -2,7 +2,7 @@
 # OUTPUT
 ##################################################################################
 
-output "vpv_id" {
+output "vpc_id" {
   value       = module.main.vpc_id
   description = "VPC Id"
 }
